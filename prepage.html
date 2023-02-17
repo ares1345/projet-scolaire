@@ -9,6 +9,9 @@
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             font-family: 'Noto Sans', sans-serif;
             background-color: #1d2026;
             color: #fff;
@@ -16,8 +19,8 @@
 
         .container {
             background: #1d2026;
-            min-height: 100vh;
-            width: 100%;
+            height: 100vh;
+            width: auto;
             color: #fff;
             position: relative;
             
@@ -27,7 +30,7 @@
             
             margin-bottom: 45px;
             text-align: center;
-            font-size: 65px;
+            font-size: 45px;
             border-radius: 15px;
             background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100% );
             -webkit-background-clip: text;
@@ -45,7 +48,7 @@
 
         p {
             font-size: 20px;
-            margin-bottom: 60px;
+            margin-bottom: 45px;
         }
 
         img {
@@ -61,10 +64,11 @@
             margin-bottom: 50px;
         }
 
-        a {
-            justify-content: flex-end;
-            align-self: flex-start;
+        .liens {
+            display: flex;
+            text-align: center;
             margin: 0px;
+            
         }
 
 
@@ -75,7 +79,7 @@
         <h1>Histoire du premier ordinateur moderne</h1>
         <img src="img/Macintosh-Computer-PNG-Free-Download-2957831309.png">
         <h2 class="sous-titre">Historique du premier ordinateur avec une interface graphique</h2>
-        <p>Introduit à la Mac Expo de 1984 par Steve Jobs, le Macintosh est considérée comme le premier ordinateur moderne avec une interface graphique. Avant le macintosh, on naviguait les ordinateurs seulement avec les claviers, sans la souris. Avec l'arrivée du Macintosh et l'invention de la souris, le mondes des ordinateurs changent pour toujours, la souris simplifie l'utilisation de l'ordination, l'aidant dans sa démocratisation avec le lancement de windows en 1985. </p>
+        <p class="texte" >Introduit à la Mac Expo de 1984 par Steve Jobs, le Macintosh est considérée comme le premier ordinateur moderne avec une interface graphique. Avant le macintosh, on naviguait les ordinateurs seulement avec les claviers, sans la souris. Avec l'arrivée du Macintosh et l'invention de la souris, le monde des ordinateurs changent pour toujours, la souris simplifie l'utilisation de l'ordination, l'aidant dans sa démocratisation avec le lancement de Windows en 1985. </p>
         <p class="liens"><a href="deupage.html"><u>Lien vers les points techniques de l'appareil</u></a> - <a href="tropage.html"><u>Lien vers quelque chose</u></a></p>
         
         
