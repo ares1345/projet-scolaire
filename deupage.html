@@ -20,6 +20,7 @@
         }
 
         .container {
+            padding: 10px;
             background: #1d2026;
             height: 100vh;
             width: auto;
@@ -37,21 +38,36 @@
             border: 5px solid rgb(75, 134, 147);
         }
 
+        a {
+            display: inline-flex;
+            justify-content: center;
+            text-align: center;
+            bottom: 0;
 
+            font-size: 40px;
+            position: absolute;
+            margin-bottom: 10px;
+        }
 
+        img {
+            height: 400px;
+            float: left;
+            width: auto;
+
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Vous êtes sur la première page</h1>
-        <ul>
-            <li>1 kg de farine</li>
-            <li>20 cl d'eau</li>
-            <li></li>
-            <li></li>
-
-        </ul>
+        <div class="paragraphe">
+            <img src="img/annonce.jpeg">
+            <p class="texte"></p>
+        </div>
+        <div class="lien">
+            <a href="index.html">Revenir sur la page principale</a>
+        </div>
 </div>
-    <a href="index.html">Revenir sur la page principale</a>
+
 </body>
 </html>
