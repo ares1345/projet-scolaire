@@ -30,26 +30,31 @@
         
         h1 {
             
-            margin: 30px 10px;
+            margin: 30px 35vw;
             text-align: center;
             padding: 10px;
             font-size: 40px;
             border-radius: 25px;
             border: 5px solid rgb(75, 134, 147);
+            width: max-content;
         }
 
-        a {
-            display: flex;
-            align-items: flex-end;
-            clear: both;
-            
-        }
+
 
         img {
-            height: 400px;
+            height: clamp(6vw, 30vw, 40vw);
+            margin-left: 35vw;
             float: left;
             width: auto;
+            margin-right: 10px;
 
+        }
+
+        .lien {
+            display: table-cell;
+            vertical-align: bottom;
+            font-size: clamp(0.5rem, 1rem, 6rem);
+            
         }
     </style>
 </head>
